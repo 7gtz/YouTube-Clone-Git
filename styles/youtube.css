@@ -1,0 +1,64 @@
+.video-container {
+    display: grid;
+    margin: 0;
+    font-size: 16px;
+    grid-template-columns: 300px;
+    grid-template-rows: 168.33px auto;
+}
+
+.video-title {
+    width: 250px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.video-information {
+    font-family: "Roboto";
+    font-size: 14px;
+    height: 20px;
+    margin: 0px;
+    color: rgb(96,96,96)
+}
+
+.creator-name {
+    font-family: "Roboto";
+    font-size: 14px;
+    height: 20px;
+    margin: 0px;
+    color: rgb(96,96,96)
+}
+
+.thumbnails {
+    width: 300px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.info-container {
+    width: 250px;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: auto 20px 20px;
+
+}
+
+.channel-pictures {
+    margin-right: 10px;
+    clip-path: circle(50%);
+    width: 40px;
+}
+
+.video-details {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 50px 250px;
+}
+
+.video-container-superset {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 20px;
+    row-gap: 40px;
+}
